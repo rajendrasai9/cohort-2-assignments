@@ -95,8 +95,8 @@
     res.status(404).send("item may not exist");
   });
 
-  // app.listen(3000, (err, data)=>{
-  //   console.log("server started successfully at PORT 3000");
-  // })
+  app.listen(3005, (err, data)=>{
+    console.log("server started successfully at PORT 3000");
+  })
   
   module.exports = app;
